@@ -48,7 +48,7 @@ const Register = () => {
         onSubmit: callRegister
     })
 
-    return
+    return (
     <>
         <Helmet>
             <title>Fresh Cart | Register</title>
@@ -90,6 +90,7 @@ const Register = () => {
             </form>
         </div>
     </>
+    )
 }
 
 export default Register;
